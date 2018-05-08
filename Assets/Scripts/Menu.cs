@@ -14,6 +14,12 @@ public class Menu : MonoBehaviour {
     
 
     {
+
+        if (SystemInfo.supportsGyroscope)
+        {
+            
+        }
+
         guiStyle = new GUIStyle();
         guiStyle.font = font;
         guiStyle.normal.textColor = Color.white;
