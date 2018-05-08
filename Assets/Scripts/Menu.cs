@@ -10,15 +10,17 @@ public class Menu : MonoBehaviour {
     private GUIStyle guiStyle;
 
     MenuDificuldade dificuldade = new MenuDificuldade();
+
+
     private void OnGUI()
     
 
     {
-
-        if (SystemInfo.supportsGyroscope)
+        if (!SystemInfo.supportsGyroscope)
         {
-            
+            SceneManager.LoadScene("Error");
         }
+
 
         guiStyle = new GUIStyle();
         guiStyle.font = font;

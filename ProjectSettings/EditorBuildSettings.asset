@@ -17,3 +17,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/game-scene.unity
     guid: 2e70dc5af0ee84d95a1a46976a4d074c
+  - enabled: 1
+    path: Assets/Error.unity
+    guid: a38883f52cef7d2428992cbef83fc168

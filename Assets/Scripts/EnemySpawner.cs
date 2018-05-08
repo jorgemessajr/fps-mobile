@@ -15,9 +15,13 @@ public class EnemySpawner : MonoBehaviour {
   }
 
   private void Spawn()
+
   {
-    Vector3 position = new Vector3(Random.Range(-100f, 100.0f), Random.Range(-5f,20f), Random.Range(-100.0f, 100.0f));
+        
+
+        Vector3 position = new Vector3(Random.Range(-100f, 100.0f), Random.Range(-5f,20f), Random.Range(-100.0f, 100.0f));
     Instantiate(enemy, position, Quaternion.identity);
+    
   }
 
 }

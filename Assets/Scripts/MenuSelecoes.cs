@@ -21,7 +21,7 @@ public static class MenuSelecoes {
 
     static MenuSelecoes()
     {
-        speed = 0.5f;
+        speed = 0.10f;
         spawn = 2.0f;
     }
 

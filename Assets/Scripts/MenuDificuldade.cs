@@ -29,7 +29,7 @@ public class MenuDificuldade : MonoBehaviour
         {
             //Application.LoadLevel(1);
             //SceneManager.LoadScene("Game");
-            MenuSelecoes.speed = 0.5f;
+            MenuSelecoes.speed = 0.10f;
             MenuSelecoes.spawn = 2.0f;
             SceneManager.LoadScene("Menu");
         }
@@ -38,7 +38,7 @@ public class MenuDificuldade : MonoBehaviour
         {
             //Application.LoadLevel(1);
             //SceneManager.LoadScene("Game");
-            MenuSelecoes.speed = 1.0f;
+            MenuSelecoes.speed = 0.2f;
             MenuSelecoes.spawn = 1.5f;
             SceneManager.LoadScene("Menu");
         }
@@ -47,7 +47,7 @@ public class MenuDificuldade : MonoBehaviour
         {
             //Application.LoadLevel(1);
             //SceneManager.LoadScene("Game");
-            MenuSelecoes.speed = 1.5f;
+            MenuSelecoes.speed = 0.3f;
             MenuSelecoes.spawn = 1.0f;
             SceneManager.LoadScene("Menu");
         }
