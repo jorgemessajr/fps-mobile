@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//Classe de definição dos itens que são parâmetros para o nível de dificuldade
 public static class MenuSelecoes {
 
 

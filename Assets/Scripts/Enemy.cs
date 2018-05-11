@@ -8,19 +8,16 @@ public class Enemy : MonoBehaviour {
 
   private void Start() {
 
-        //transform.Rotate((0), (5f), (0));
     }
 
+    //Utilização da função fixedupdate para ser chamada em intervalos fixos de tempo
+    //Recomendável para utilização em conjunto com funções relacionadas a física de objetos
   private void FixedUpdate () {
-        //transform.Rotate((0), (5f), (0));
+        
+        //Função para o enemy olhar sempre para a câmera
         transform.LookAt(Camera.main.transform.position, Vector3.up);
 
-   
-       // transform.Translate((Player.Instance.transform.position - transform.position)
-        //* MenuSelecoes.speed * Time.deltaTime);
-
-
-       // transform.Rotate((0), (5f), (0));
+        //Declaração do vetor de direção e distância para mover o enemy até a posição do player
         Vector3 direcao = (Player.Instance.transform.position - transform.position).normalized;
         float distancia = (Player.Instance.transform.position - transform.position).magnitude;
         Vector3 move = transform.position + (direcao * MenuSelecoes.speed);
